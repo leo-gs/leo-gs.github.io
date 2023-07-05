@@ -1,80 +1,50 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Quantifying Personhood
+description: Course Curriculum
 img: assets/img/3.jpg
 importance: 2
+permalink: /quantifying_personhood
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The original curriculum for this course was designed in collaboration with Jaime Snyder, building on her vision of a course that introduced data science students to qualitative and design methods. I have since modified the course materials to include two data analysis workshops and an updated reading list.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+# Reading
+**Bolded** items are required readings. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<!--
+## Week 1. Quantifying Personhood
+Cheney-Lippold, J. (2018). Preface. We are data: Algorithms and the making of our digital selves. NYU Press.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Cheney-Lippold, J. (2018). Introduction. We are data: Algorithms and the making of our digital selves. NYU Press.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+**Cheney-Lippold, J. (2018). Categorization: Making Data Useful. We are data: Algorithms and the making of our digital selves. NYU Press.**
 
+**D'Ignazio, C., & Klein, L. F. (2020). Chapter One: Bring Back the Bodies. Data feminism. MIT Press.**
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Daston, L., & Galison, P. (1992). The image of objectivity. Representations, (40), 81-128.**
+
+Epstein, S. (2008). Histories of the Human Subject. Inclusion: The politics of difference in medical research. University of Chicago Press.
+
+Skerry, P. (2000). Creating Racial and Ethnic Categories. Counting on the census?: Race, group identity, and the evasion of politics (Vol. 56). Brookings Institution Press.
+
+Wernimont, J. (2019). From Surveilling Land to Surveilling Man. Numbered Lives: Life and Death in Quantum Media. MIT Press.
+-->
+
+## Week 3. Trace Ethnography & Trace Data
+
+### Trace Ethnography and Trace Data
+
+**Geiger, R. S. & Ribes, D. (2011, January). Trace ethnography: Following coordination through documentary practices. In 2011 44th Hawaii International Conference on System Sciences (pp. 1-10). IEEE.**
+
+**Latzko-Toth, G., Bonneau, C. & Millette, M. (2016). Small data, thick data: thickening strategies for trace-based social media research. In Sloan, L., & Quan-Haase, A. The SAGE Handbook of social media research methods (pp. 199-214).**
+
+### Online Identity / Identity in Trace Data
+**Hogan, B. (2013). Pseudonyms and the rise of the real-name web. A companion to new media dynamics, 290-307.**
+
+Marwick, A. E. (2013). Online identity. A companion to new media dynamics, 355-364.
+
+Schmidt, J. H. (2013). Practices of networked identity. A companion to new media dynamics, 365-74.
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

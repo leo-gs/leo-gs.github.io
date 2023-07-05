@@ -1,0 +1,61 @@
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S., Information Science
+      institution: University of Washington, Seattle, United States
+      year: 2021
+    - title: B.S., Computer Science
+      institution: University of Washington, Seattle, United States
+      year: 2017
+    - title: B.S., Human Centered Design & Engineering
+      institution: University of Washington, Seattle, United States
+      year: 2017
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Trainee
+      institution: Center for Studies in Demography and Ecology, University of Washington
+      year: 2021 - 2023
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Teaching Assistant
+      institution: University of Washington iSchool
+      year: 2021
+      description:
+        - Description 1.
+        - Skills
+        
+    - title: Research Assistant
+      institution: University of Washington iSchool
+      year: 2017 - 2020, 2021
+      description:
+        - I worked with other students to conduct mixed-methods analyses on social media data. I also learned to use Python, SQL, Gephi, REST APIs, and Tableau to collect, analyze, and present data.
+    - title: Data Analyst, Research Intern
+      institution: Institute for Health Metrics and Evaluation
+      year: 2017 - 2018
+      description:
+        - I started at IHME as a research intern in Summer 2017 and continued as a data analyst after my internship. I built skills relating to data cleaning, cataloguing, and visualization and quantitative analysis, along with the accompanying infrastructure. I worked with datasets from a variety of sources using R, Shiny, Python, SQL, and Stata. I also gained experience with large-scale, data-driven research and current topics at the intersection of global health and data science, particularly transparency and accuracy in computational modeling.
+    - title: Mobile Software Development Intern
+      institution: Motorola Solutions
+      year: Summer 2016 & Summer 2015
+      description:
+        - I worked with a team to develop an Android component of a broader communication platform.
+    - title: Engineering Intern
+      institution: Qualcomm
+      year: Summer 2014
+      description:
+        - I worked with a team to refine an internal Android application for communication with a broader Internet of Things network.
