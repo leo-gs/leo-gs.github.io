@@ -19,6 +19,23 @@ strong {
   color: var(--global-text-color);
 }
 
+h1,
+h2,
+h3 {
+  font-family: serif
+}
+
+.tag { 
+    background: #0076df22;
+    border-radius: 15px;     /* Add some roundness */
+    color: var(--global-text-color);
+    padding: 4px 8px 2px 8px;
+    margin: 0px 2px 2px 1px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -85,13 +102,22 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  
+  //    Leo added this
+//    -webkit-box-shadow: none;
+////      And this
+//	box-shadow:none;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 0 0px rgba(0,0,0,.05);
 
   img {
     width: 100%;
   }
 
   .card-title {
-    color: var(--global-text-color);
+//    color: var(--global-text-color);
+      font-size: 2rem;
+      font-family: serif
   }
 
   .card-item {
@@ -212,7 +238,8 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-
+    padding-left: 20px;
+    padding-right: 20px;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -357,6 +384,8 @@ footer.sticky-bottom {
 
 // CV
 
+
+
 .cv {
   margin-bottom: 40px;
 
@@ -369,8 +398,14 @@ footer.sticky-bottom {
       border-color: var(--global-divider-color);
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        color: var(--global-theme-color) !important;
+        background-color: var(--global-bg-color) !important;
+        border-color: var(--global-theme-color) !important;
+        
+        //    Leo added this
+        -webkit-box-shadow: none;
+        //      And this
+        box-shadow:none;
       }
     }
   }
@@ -503,6 +538,15 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  
+//    Leo added this
+  .project-icon {
+      font-size: 36px;
+      --fa-border-width: 0.25em;
+//      color: $purple-color;
+//      border-color: $purple-color;
+    }
+    
   a {
     text-decoration: none;
 
@@ -514,8 +558,18 @@ footer.sticky-bottom {
   }
 
   .card {
-    img {
-      width: 100%;
+//    Leo added this
+//    -webkit-box-shadow: none;
+////      And this
+//	box-shadow:none;
+
+//    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    
+    &:hover{
+     transform: scale(1.05);
+     box-shadow: 0 4px 8px rgba(0,0,0,.06);
     }
   }
 

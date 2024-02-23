@@ -7,15 +7,25 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$blue-color};
+  --global-hover-color: #{$blue-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
+  
   --global-card-bg-color: #{$white-color};
+  //  Leo added these
+//  --global-card-black: #{$black-color};
+//  --global-card-red: #{$red-color};
+//  --global-card-orange: #{$orange-color};
+//  --global-card-blue: #{$blue-color};
+//  --global-card-green: #{$green-color};
+//  --global-card-purple: #{$purple-color};
+//  --global-card-pink: #{$pink-color};
+//  --global-card-yellow: #{$yellow-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -29,6 +39,7 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  
 
   .fa-sun {
     display : none;

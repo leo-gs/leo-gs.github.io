@@ -1,0 +1,17 @@
+{%- assign icon_name = include.icon | prepend: "fa-solid " | append: " fa-regular" -%}
+
+{%- assign icon_color = include.color | prepend: "var(--global-card-" | append: ")" -%}
+
+<!--to add icon borders: (1) add `border-color: {{ icon_color }};` to style and "fa-border" to appended icon name-->
+
+<div class="card hoverable border-light">
+  <div class="card-body">
+      <div style="text-align: center; margin: 20px 0px 20px 0px;">
+        <i class="{{ icon_name }} project-icon"></i>
+      </div>
+    <h2 class="card-title text-lowercase">{{ include.title }}</h2>
+    <p class="card-text">{{ include.description }}</p>
+    <div class="row ml-1 mr-1 p-0">
+    </div>
+  </div>
+</div>

@@ -1,18 +1,32 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Data Wrangling
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Data extraction from a variety of sources and file formats
+        - Writing scripts in R, Python, and SQL
+        - Developing large-scale ETL pipelines
+        - Intensive digital trace data collection from online platforms, such as Reddit, Twitter, and Wikipedia
+        - Data cleaning and validation
+        - Collaborative development using version control, such as git
+    - title: Data Presentation
+      items: 
+        - Designing and developing interactive dashboards with tools like Shiny and Tableau
+        - Creating documents and visualizations with RMarkdown and Jupyter
+        - Analysis and visualization of social networks
+        - Spatial data analysis
+    - title: Technical Communication
       items:
-        - Description 1.
-        - Description 2.
+        - Writing papers for academic audiences
+        - Writing blog posts for a general audience
+        - Presenting technical information in a variety of formats, such as presentations, posters, and writing
 
 - title: Education
   type: time_table
   contents:
+    - title: Graduate Certificate in Demographic Methods
+      institution: University of Washington, Seattle, United States
+      year: 2023
     - title: M.S., Information Science
       institution: University of Washington, Seattle, United States
       year: 2021
@@ -41,7 +55,7 @@
         
     - title: Research Assistant
       institution: University of Washington iSchool
-      year: 2017 - 2020, 2021
+      year: 2017 - 2021
       description:
         - I worked with other students to conduct mixed-methods analyses on social media data. I also learned to use Python, SQL, Gephi, REST APIs, and Tableau to collect, analyze, and present data.
     - title: Data Analyst, Research Intern
@@ -51,7 +65,12 @@
         - I started at IHME as a research intern in Summer 2017 and continued as a data analyst after my internship. I built skills relating to data cleaning, cataloguing, and visualization and quantitative analysis, along with the accompanying infrastructure. I worked with datasets from a variety of sources using R, Shiny, Python, SQL, and Stata. I also gained experience with large-scale, data-driven research and current topics at the intersection of global health and data science, particularly transparency and accuracy in computational modeling.
     - title: Mobile Software Development Intern
       institution: Motorola Solutions
-      year: Summer 2016 & Summer 2015
+      year: Summer 2016
+      description:
+        - I worked with a team to develop an Android component of a broader communication platform.
+    - title: Mobile Software Development Intern
+      institution: Motorola Solutions
+      year: Summer 2015
       description:
         - I worked with a team to develop an Android component of a broader communication platform.
     - title: Engineering Intern
